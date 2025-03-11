@@ -102,5 +102,5 @@ add_action('admin_init', 'custom_api_importer_settings_init');
 // Render API Key field
 function custom_api_importer_api_key_render() {
     $value = get_option('custom_api_importer_api_key', '');
-    echo "<input type='text' name='custom_api_importer_api_key' value='" . esc_attr($value) . "' size='50' />";
+    echo "<input type='text' name='custom_api_importer_api_key' value='" . esc_attr($value) . "' size='50' /> testi";
 }
